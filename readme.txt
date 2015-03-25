@@ -39,3 +39,5 @@ IF CHANGES NOT TAKING EFFECT
 Go to Google Developers Console
 Go to Compute -> App Engine -> Versions
 and make sure the latest version is selected as the default
+
+ctrl - shift - r to force reload, stripping cache

@@ -10,3 +10,28 @@ handlers:
 pagespeed:
   enabled_rewriters:
   - MinifyCss
+  - ProxyCSS
+  - ProxyImages
+  - ProxyJS
+  - ConvertMetaTags
+  - InlineCSS
+  - InlineImages
+  - InlinePreviewImages
+  - CollapseWhitespace
+  - CombineHeads
+  - ElideAttributes
+  - RemoveComments
+  - RemoveQuotes
+  - LeftTrimUrls
+  - CombineCss
+  - MoveCssToHead
+  - WebpOptimization
+  - ImageConvertToJpeg
+  - ImageRecompressJpeg
+  - ImageProgressiveJpeg
+  - ImageRecompressPng
+  - ImageStripMetadata
+  - ImageStripColorProfile
+  - ImageResize
+  - LazyloadImages
+  - ImageAddDimensions
