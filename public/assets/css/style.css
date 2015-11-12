@@ -156,11 +156,20 @@ section {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-left: 4.375em;
+    padding-right: 4.375em;
+}
+
+section.left {
+    -webkit-justify-content: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+}
+
+section.center {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-left: 4.375em;
-    padding-right: 4.375em;
 }
 
 article {
@@ -212,9 +221,9 @@ p, li {
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-justify-content: left;
+        -ms-flex-pack: left;
+            justify-content: left;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
